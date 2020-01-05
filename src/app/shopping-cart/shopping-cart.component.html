@@ -1,0 +1,8 @@
+<div class="container border border-warning rounded my-5">
+    <h3 class="font-italic">Products waiting in your cart</h3>
+    <div *ngFor="let product of cart">
+        <app-cart-product [product]="product"></app-cart-product>
+    </div>
+</div>
+
+
